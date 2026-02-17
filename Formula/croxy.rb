@@ -1,26 +1,26 @@
 class Croxy < Formula
   desc "Model-routing proxy for the Anthropic API"
   homepage "https://github.com/panbanda/croxy"
-  version "2.1.1"
+  version "2.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.1.1/croxy_2.1.1_aarch64-apple-darwin.tar.gz"
-      sha256 "86c5f3f29d6ae8e10dfc340e8242aacfded6fcfe6a3b4d0d8b2903edaa0b14ea"
+      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.2.0/croxy_2.2.0_aarch64-apple-darwin.tar.gz"
+      sha256 "b1e19efce83a77720b69ca73928815c5f009364c0196dbd00bcc9fd3ed08ae53"
     else
-      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.1.1/croxy_2.1.1_x86_64-apple-darwin.tar.gz"
-      sha256 "a3f32be9ebf7be85e401a7295d32549f98778d4e83964a107677e0835b3f7999"
+      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.2.0/croxy_2.2.0_x86_64-apple-darwin.tar.gz"
+      sha256 "b0a913b9405321eec6b5cd5d78103b796b9fb82d76c9cdc7fd3aafc2151a650e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.1.1/croxy_2.1.1_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3375a64d97f9f719c2d8972acbcb66910c8fb1a1374e3b9eb026c3bae89f833c"
+      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.2.0/croxy_2.2.0_aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5eb8970f96024656a869a012b3d8b134deaad71a3f603a7ec5d9072bf8685dee"
     else
-      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.1.1/croxy_2.1.1_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "84ba89dcd0c908d5a07b3017aba7dd67e24a92f21158739090aefe74f2b341bf"
+      url "https://github.com/panbanda/croxy/releases/download/croxy-v2.2.0/croxy_2.2.0_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f9041b93dfa58300f441236749519479824dba5ab14a08dfb728fa269234e5f4"
     end
   end
 
